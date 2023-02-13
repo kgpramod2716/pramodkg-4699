@@ -14,6 +14,8 @@ import pandas as pd
 
 X=np.vstack([(np.random.rand(10,2)*5),(np.random.rand(10,2)*10)])
 print(X)
+
+
 y=np.random.randint(0,2,20)
 y=y.reshape(20,1)
 print(y)
